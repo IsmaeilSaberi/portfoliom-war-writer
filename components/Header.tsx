@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link'
 import { MoonIcon, SunIcon } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
@@ -10,6 +11,14 @@ export default function Header() {
   return (
     <header className="bg-primary text-primary-foreground py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
+        <nav>
+          <ul className="flex space-x-4">
+            <li><Link href="/" className="hover:underline">خانه</Link></li>
+            <li><Link href="/about" className="hover:underline">درباره</Link></li>
+            <li><Link href="/events" className="hover:underline">رویدادها</Link></li>
+            <li><Link href="/admin" className="hover:underline">مدیریت</Link></li>
+          </ul>
+        </nav>
         <h1 className="text-2xl font-bold">سید محمدرضا موسوی‌نژاد</h1>
         <Button
           variant="outline"

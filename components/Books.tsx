@@ -4,9 +4,9 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button"
 
 const books = [
-  { id: 1, title: 'اسطوره‌های تاریخ مقاومت ایران', image: 'https://source.unsplash.com/random/300x400?book', description: 'مجموعه ۵ جلدی', link: '#' },
-  { id: 2, title: 'یادهای نیک', image: 'https://source.unsplash.com/random/300x400?history', description: 'مجموعه ۳ جلدی', link: '#' },
-  { id: 3, title: 'عمری که مرا داده شده بر زمین چنین گذشت', image: 'https://source.unsplash.com/random/300x400?memoir', description: 'جلد ۳', link: '#' },
+  { id: 1, title: 'اسطوره‌های تاریخ مقاومت ایران', image: 'https://source.unsplash.com/random/300x400?book', description: 'مجموعه ۵ جلدی', link: '/books/1' },
+  { id: 2, title: 'یادهای نیک', image: 'https://source.unsplash.com/random/300x400?history', description: 'مجموعه ۳ جلدی', link: '/books/2' },
+  { id: 3, title: 'عمری که مرا داده شده بر زمین چنین گذشت', image: 'https://source.unsplash.com/random/300x400?memoir', description: 'جلد ۳', link: '/books/3' },
 ]
 
 export default function Books() {
